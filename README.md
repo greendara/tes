@@ -52,6 +52,11 @@ price_history_client.price_data_frame.to_csv(
 pprint(price_history_client.price_data_frame)
 ```
 
+## S&P 500 Data
+
+The `sp500_comparison.py` script downloads the `all_stocks_5yr.csv` data set and
+automatically selects the 30 tickers with the best historical performance.
+
 ## Support These Projects
 
 **Patreon:**
